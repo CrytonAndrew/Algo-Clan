@@ -1,16 +1,17 @@
-import React from "react"
+import React from "react";
 import Header from "./components/Header"
-import HomeScreen from "./screens/HomeScreen"
 import Footer from "./components/Footer"
+import HomeScreen from "./screens/HomeScreen"
 
-function App() {
-  return (
-    <>
-      <Header />
+
+class App extends React.Component {
+  render() {
+    return <>
+      <Header/>
       <HomeScreen />
-      <Footer />
-    </>
-  );
+      <Footer/>
+    </>;
+  }
 }
 
 export default App;
