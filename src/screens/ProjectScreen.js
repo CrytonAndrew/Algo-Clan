@@ -1,17 +1,19 @@
 import React from 'react'
 import { Container, Row, Col, Image} from 'react-bootstrap'
+import  StackedPolarBars from "../Graphs/StackedPolarBars"
 
 const ProjectScreen = () => {
     return (
         <div className="lets-go-back">
             <Container>
-                <h2 className="sub-headings"> Lets Go Back A Little </h2>
+                <h2 className="sub-headings" id="history"> Lets Go Back A Little </h2>
                 <Row className="go-back-section-row">
                     <Col className="go-back-section-col">
                         
 
                         {/* Minister Stella Ndabeni-Abrahams Talk  */}
                         <h3>Minister Stella Ndabeni-Abrahams Talk </h3>
+                        <div className="let-go-back-info">
                         <p> Key Points: Data driven solutions</p>
                         <ul>
                             <li><strong>Drones - Hauling</strong></li>
@@ -19,9 +21,13 @@ const ProjectScreen = () => {
                             <li>Data Storage</li>
                             <li>Road Problems</li>
                         </ul>
+                        </div>
                     </Col>
                     <Col className="go-back-section-col">
-                        <Image src="/images/online_learning.svg" className="go-back-img"/>
+                        {/* <Image src="/images/online_learning.svg" className="go-back-img"/> */}
+                        <div className="moving-direction">
+                            <StackedPolarBars />
+                        </div>
                     </Col>
                 </Row>
 

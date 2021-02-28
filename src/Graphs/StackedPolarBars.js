@@ -14,7 +14,7 @@ const directions = {
     180: "W", 225: "SW", 270: "S", 315: "SE"
   };
   
-  const orange = { base: "gold", highlight: "darkOrange" };
+  const orange = { base: "coral", highlight: "darkOrange" };
   
   const red = { base: "tomato", highlight: "orangeRed" };
   

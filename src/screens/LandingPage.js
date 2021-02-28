@@ -8,7 +8,7 @@ const LandingPage = () => {
             <Container>
                 <Row>
                     <Col md={8}>
-                    <h1>
+                    <h1 id="home">
                     Algo Clan
                     </h1>
                     <h2>“Any sufficiently advanced technology is indistinguishable from magic.” - Aurthur C. Clarke</h2>

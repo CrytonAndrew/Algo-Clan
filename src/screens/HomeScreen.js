@@ -11,7 +11,6 @@ import Perctage from "../Graphs/PercentageLoader"
 import Alternative from "../Graphs/Alternative"
 import ZoomInOut from "../Graphs/ZoomInOutLine"
 import StackedBars from "../Graphs/StackedBars"
-import StackedPolarBars from "../Graphs/StackedPolarBars"
 import CustomPie from "../Graphs/CustomPie"
 import BarGraph2 from "../Graphs/BarGraph2"
 import BarGraph3 from "../Graphs/BarGraph3"
@@ -21,7 +20,7 @@ const HomeScreen = () => {
   return (
     <div className="data-graphs">
       <Container>
-      <h2 className="sub-headings"> Data Analysis and Visualization </h2>
+      <h2 className="sub-headings" id="data-visualizaion"> Data Analysis and Visualization </h2>
       <p className="sub-headings">Data Resources Used: <a href="https://drive.google.com/drive/folders/1jlapUeeMrK1bSBCjyW590OG4kapnItst">Mpumalanga</a></p>
 
       <Row>
@@ -318,9 +317,6 @@ const HomeScreen = () => {
       <Row>
         <Col>
           
-        </Col>
-        <Col>
-          <StackedPolarBars/>
         </Col>
       </Row>
       </Container>
