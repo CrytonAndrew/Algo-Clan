@@ -48,7 +48,7 @@ const StackedBar1 = () => {
               />
               <VictoryAxis
                 dependentAxis
-                tickFormat={(x) => (`$${x / 1000}k`)}
+                tickFormat={(x) => (`${x / 1000}`)}
               />
               <VictoryStack
                 colorScale="warm"

@@ -9,3 +9,197 @@ body {
   font-size: 20px;
   color: #3e3c38;
 }
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 7rem;
+  padding-top: 70px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+/* Landing Page  */
+.main-img {
+  width: 500px;
+  height: 300px;
+}
+
+.main-page {
+  background-color: rgb(250, 251, 253);
+  padding-top: 100px;
+  padding-bottom: 200px;
+  color: black;
+}
+
+.main-button {
+  margin-top: 20px;
+}
+
+/* Middle screen  */
+.middle-section {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+#meet-team-heading {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.profile-pic-carousel {
+  margin-top: 50px;
+  vertical-align: middle;
+  font-size: 150px;
+  padding-bottom: 40px;
+  color: teal;
+}
+
+.team-info {
+  color: black;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+
+/* Go back  Section */
+
+.lets-go-back {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: #1687a7;
+  color: white;
+}
+
+/* .go-back-section-row {
+  padding-top: 5px;
+} */
+
+.go-back-section-col {
+  margin-top: 10px;
+}
+
+.go-back-img {
+  width: 400px;
+  height: 300px;
+  margin-bottom: 120px;
+}
+
+/* Graphs Section  */
+
+.population-pie {
+  text-align: center;
+  width: 500px;
+  height: 500px;
+}
+
+.sub-headings {
+  text-align: center;
+}
+
+.population-pie-title {
+  padding-top: 100px;
+}
+
+.population-body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 2rem;
+}
+
+.about-sa-section {
+  padding-top: 50px;
+}
+
+.data-graphs {
+  padding-top: 100px;
+}
+
+.BarGraphs {
+  font-size: 2px;
+}
+
+/* Understanding the data  */
+
+.literacy-heading {
+  padding-top: 10px;
+}
+
+.literacy-body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 2rem;
+  padding-bottom: 80px;
+}
+
+.combo-data-section-row {
+  padding-bottom: 100px;
+}
+
+.graph-combo {
+  align-self: center;
+}
+
+.prof-section-row {
+  padding-bottom: 100px;
+}
+
+.what-do-we-see-heading {
+  padding-top: 50px;
+}
+
+.what-do-we-body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 2rem;
+}
+
+.deeper-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  padding-top: 50px;
+}
+
+.prof-heading {
+  padding-bottom: 30px;
+}
+
+.prof-body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 2rem;
+}
+
+/* .prof-img {
+} */
+.outcome-alone {
+  padding-top: 50px;
+}
+
+.outcome {
+  text-align: center;
+}
+
+.outcome-heading {
+  text-align: center;
+}
+
+.area-title {
+  padding-left: 50px;
+  padding-top: 70px;
+}
+
+.area-plot-graph {
+  padding-top: 100px;
+}
+
+.joint-title {
+  padding-left: 20px;
+}
+
+.area-section-row {
+  padding-bottom: 200px;
+}

@@ -3,14 +3,19 @@ import { VictoryBar, VictoryChart, VictoryAxis, VictoryTheme} from 'victory';
 
 const BarGraphs = () => {
     const data = [
-        {quarter: 1, earnings: 13000},
-        {quarter: 2, earnings: 16500},
-        {quarter: 3, earnings: 14250},
-        {quarter: 4, earnings: 19000}
+        {provinces: 1, literacy: 130},
+        {provinces: 2, literacy: 0},
+        {provinces: 3, literacy: 0},
+        {provinces: 4, literacy: 250},
+        {provinces: 5, literacy: 190},
+        {provinces: 6, literacy: 0},
+        {provinces: 7, literacy: 25},
+        {provinces: 8, literacy: 150},
+        {provinces: 9, literacy: 100},
       ];
 
     return (
-        <div>
+        <div className="BarGraphs">
         <VictoryChart
         // domainPadding will add space to each side of VictoryBar to
         // prevent it from overlapping the axis
@@ -20,20 +25,24 @@ const BarGraphs = () => {
         <VictoryAxis
           // tickValues specifies both the number of ticks and where
           // they are placed on the axis
-          tickValues={[1, 2, 3, 4]}
-          tickFormat={["Quarter 1", "Quarter 2", "Quarter 3", "Quarter 4"]}
+          tickValues={[1, 2, 3, 4, 5, 6, 7, 8, 9 ]}
+          tickFormat={["EC", "FS", "Ga", "KZN", "L", "M", "NC", "NW", "WC"]}
         />
         <VictoryBar
                 data={data}
                 // data accessor for x values
-                x="quarter"
+                x="provinces"
                 // data accessor for y values
-                y="earnings"
+                y="literacy"
+
+                style={{
+                data: { fill: "blue" }
+              }}
             />
                 <VictoryAxis
           dependentAxis
           // tickFormat specifies how ticks should be displayed
-          tickFormat={(x) => (`$${x / 1000}k`)}
+          tickFormat={(x) => (`${x / 1000}`)}
         />
         </VictoryChart>
         </div>
