@@ -1,14 +1,14 @@
 import React from 'react'
 import {Row, Col, Container, Image} from "react-bootstrap"
 import BarGraphs from "../Graphs/BarGraphs"
-import StackedBar1 from "../Graphs/StackedBar1"
+// import StackedBar1 from "../Graphs/StackedBar1"
 import StackedAreaGraph from "../Graphs/StackedAreaGraph"
-import ScaterPlot from "../Graphs/ScaterPlot"
-import BarGraphWithToolTip from "../Graphs/BarGraphWithToolTip"
-import Histogram from "../Graphs/Histogram"
-import GraphInter from "../Graphs/GraphInter"
-import Perctage from "../Graphs/PercentageLoader"
-import Alternative from "../Graphs/Alternative"
+// import ScaterPlot from "../Graphs/ScaterPlot"
+// import BarGraphWithToolTip from "../Graphs/BarGraphWithToolTip"
+// import Histogram from "../Graphs/Histogram"
+// import GraphInter from "../Graphs/GraphInter"
+// import Perctage from "../Graphs/PercentageLoader"
+// import Alternative from "../Graphs/Alternative"
 import ZoomInOut from "../Graphs/ZoomInOutLine"
 import StackedBars from "../Graphs/StackedBars"
 import CustomPie from "../Graphs/CustomPie"
@@ -229,12 +229,12 @@ const HomeScreen = () => {
   <Row className="area-section-row">
       <Col md={6} className="area-plot-graph">
         <StackedAreaGraph/> 
-        <h3 className="area-title">Area Map</h3>
+        {/* <h3 className="area-title">Area Map</h3> */}
         <p></p>
       </Col>
       <Col md={6}>
         <Image src="images/less-ict.png" />
-        <h3 className="joint-title">Joint Plot</h3>
+        {/* <h3 className="joint-title">Joint Plot</h3> */}
         <p></p>
       </Col>
   </Row>
@@ -273,7 +273,7 @@ const HomeScreen = () => {
   </Row>
 
 
-      <Row>
+      {/* <Row>
       
           <Col>
           
@@ -318,7 +318,7 @@ const HomeScreen = () => {
         <Col>
           
         </Col>
-      </Row>
+      </Row> */}
       </Container>
     </div>
   )
