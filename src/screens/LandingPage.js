@@ -12,7 +12,7 @@ const LandingPage = () => {
                     Algo Clan
                     </h1>
                     <h2>“Any sufficiently advanced technology is indistinguishable from magic.” - Aurthur C. Clarke</h2>
-                    <Button variant="info" className="btn-lg main-button">
+                    <Button variant="info" className="btn-lg main-button" href="#meet-team">
                         Who Are We?
                     </Button>
                     </Col>

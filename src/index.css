@@ -69,6 +69,10 @@ h2 {
   font-size: 1.2rem;
 }
 
+.profile-pic-carousel {
+  max-width: 500px;
+  max-height: 500px;
+}
 /* Go back  Section */
 
 .lets-go-back {

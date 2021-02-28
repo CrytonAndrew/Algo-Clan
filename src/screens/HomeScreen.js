@@ -22,7 +22,7 @@ const HomeScreen = () => {
       <Container>
       <h2 className="sub-headings" id="data-visualizaion"> Data Analysis and Visualization </h2>
       <p className="sub-headings">Data Resources Used: <a href="https://drive.google.com/drive/folders/1jlapUeeMrK1bSBCjyW590OG4kapnItst">Mpumalanga</a></p>
-
+      <p className="sub-headings">Our Data Manipulation (Using Jupter Notebook & Pandas): <a href="https://drive.google.com/file/d/1VdBjBGEVxNPoxpRloDmedVaP3g2RF0UT/view?usp=sharing">Here</a></p>
       <Row>
         <Col>
           <div className="population-pie">
