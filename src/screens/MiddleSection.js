@@ -16,7 +16,7 @@ const MiddleSection = () => {
             </Carousel.Item>
             <Carousel.Item>
                 {/* <i class="fas fa-user profile-pic-carousel"></i> */}
-                <Image src="images/cryton.png" className="profile-pic-carousel"/>
+                <Image src="images/circle-cropped.png" className="profile-pic-carousel"/>
                 <h3 className="team-info"><strong>Senzo Dlamini</strong></h3>
                 <p className="team-info">Talent can only take you so far, hardwork will take you places.</p>
             </Carousel.Item>
