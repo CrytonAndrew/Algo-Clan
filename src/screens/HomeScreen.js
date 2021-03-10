@@ -24,12 +24,12 @@ const HomeScreen = () => {
       <p className="sub-headings">Data Resources Used: <a href="https://drive.google.com/drive/folders/1jlapUeeMrK1bSBCjyW590OG4kapnItst">Mpumalanga</a></p>
       <p className="sub-headings">Our Data Manipulation (Using Jupter Notebook & Pandas): <a href="https://drive.google.com/file/d/1VdBjBGEVxNPoxpRloDmedVaP3g2RF0UT/view?usp=sharing">Here</a></p>
       <Row>
-        <Col>
+        <Col sm={6} md={6}>
           <div className="population-pie">
             <CustomPie />
           </div>
         </Col>
-        <Col>
+        <Col sm={6} md={6}>
           <h3 className="population-pie-title">Why is this a thing ?</h3>
           <p className="population-body">
             In the next few minutes we will observe some visual representation of some datasets, this 
